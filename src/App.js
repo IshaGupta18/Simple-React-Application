@@ -23,7 +23,7 @@ class App extends Component {
 // componentWillUnmount(){
 // just before a component is removed from the DOM
 //this gives us a chance to do any kind of cleanup, like removing listeners atached to the component about to be deleted, avoiding memory leaks
-// }
+// onSubmit event handles pressing enter too }
  handleReset = () => {
     const counterss=this.state.counters.map(c => {
          c.value = 0;
